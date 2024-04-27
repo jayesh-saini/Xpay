@@ -7,10 +7,7 @@ const port = process.env.PORT || 4000;
 // middlware
 app.use(express.json());
 app.use(
-  cors({
-    credentials: true,
-    origin: process.env.ORIGIN,
-  })
+  cors()
 );
 
 //routes
