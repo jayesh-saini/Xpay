@@ -10,7 +10,7 @@ import axios from "axios";
 import { Toaster } from "react-hot-toast";
 
 // Axios
-axios.defaults.baseURL = "https://xpay-backend.onrender.com";
+axios.defaults.baseURL = "https://xpay-be.onrender.com";
 axios.defaults.withCredentials = true;
 
 function App() {
